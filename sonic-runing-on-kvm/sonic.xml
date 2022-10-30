@@ -24,7 +24,7 @@
     <!-- image -->
     <disk type='file' device='disk'>
       <driver name='qemu' type='qcow2' cache='writeback'/>
-      <source file='/home/yusuke/ghq/github.com/cafenero/running-sonic/sonic-runing-on-kvm/sonic.img'/>
+      <source file='/var/lib/libvirt/images/sonic-vs.img' />
       <target bus='virtio' dev='vda'/>
     </disk>
 
