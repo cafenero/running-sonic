@@ -21,7 +21,8 @@ cd sonic-buildimage
 # BuildId	BuildNumber	BranchName	BuildName	Result	StartTime	FinishTime	Commit	BuildLink	Artifact
 # 133812	20220811.4	202205	Azure.sonic-buildimage.official.vs	succeeded	2022-08-11T08:28:57	2022-08-11T16:32:29	e8fe21b3a4	Build Link	Artifacts
 # git checkout e8fe21b3a4
-git checkout 483257d88c
+# git checkout 483257d88c
+git checkout b0c9013ea1
 
 # Execute make init once after cloning the repo, or after fetching remote repo with submodule updates
 make init
